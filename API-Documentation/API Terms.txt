@@ -1,0 +1,34 @@
+API Terms					
+					
+Term			Description		
+
+API			Application Programming Interface		
+Endpoint			A specific URL where an API can be accessed by a client. It represents a function or resource, like /users or /products.		
+Request			The message sent by the client to the API, asking for data or action. It typically includes: Method / Headers / Body (Optional).		
+Response			The data sent back from the API server to the client after processing the request. Includes: Status code / Headers / Body (JSON or XML).		
+JSON			(Javascript Object Notation) A llightweight format for exchanging data.		
+Authentication			Verifying the identity of a user or app making the request. Common methods: API Keys / OAuth / JWT (JSON Web Token).		
+Rate Limiting			Restriction on how many API requests a user/app can make in a certain time to avoid overloading the server.		
+SDK			(Software Development Kit) A set of tools and libraries to help developers interact with an API more easily.		
+
+
+HTTP Methods (Verbs)					
+
+Term			Description		
+GET			Retrieve data.		
+POST			Submit new data.		
+PUT			Update existing data.		
+DELETE			Remove data.		
+PATCH			Partially update data.		
+
+
+Status Codes					
+
+Term			Description		
+200 OK			Success.		
+201 Created			Resource created.		
+400 Bad Request			Client error.		
+401 Unauthorized			Authentication required.		
+404 Not Found			Resource not found.		
+500 Internal Server Error			Server error.		
+					
